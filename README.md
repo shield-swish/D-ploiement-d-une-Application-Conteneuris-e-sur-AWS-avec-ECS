@@ -29,14 +29,9 @@ Nodes : Configuration des worker nodes avec un Auto Scaling Group
 
 Le projet est structuré comme suit :
 
-terraform-eks/
-│── main.tf
-│── variables.tf
-│── outputs.tf
-│── modules/
-│   ├── network/
-│   ├── eks/
-│   ├── nodes/
+terraform-eks : main.tf / variables.tf / outputs.tf
+
+modules : network / eks / nodes
 
 Schéma de l'Architecture AWS
 
