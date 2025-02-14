@@ -1,5 +1,20 @@
 Documentation du Projet Terraform - Cluster EKS sur AWS
 
+Pourquoi utiliser Terraform et AWS EKS ?
+
+Automatisation : Terraform permet de décrire l'infrastructure sous forme de code (Infrastructure as Code - IaC) et de la provisionner en un seul clic.
+Scalabilité : AWS EKS offre une gestion simplifiée des clusters Kubernetes avec un support natif du scaling automatique des nœuds.
+Sécurité : Intégration des rôles IAM, des sous-réseaux privés, et des politiques de contrôle pour un déploiement sécurisé.
+Flexibilité : L'utilisation des modules Terraform permet de réutiliser et d’adapter facilement le projet à différents environnements (DEV, TEST, PROD).
+
+Cas d’usage du projet :
+
+Déployer un cluster Kubernetes sur AWS pour :
+Héberger des applications microservices
+Tester des applications CI/CD en production
+Gérer des workloads Big Data & Machine Learning
+Faciliter le déploiement d'applications cloud-native
+
 1. Introduction
 
 Ce projet utilise Terraform pour déployer un cluster Amazon EKS (Elastic Kubernetes Service) sur AWS en utilisant des modules. Il comprend trois principaux modules :
@@ -70,4 +85,4 @@ Un Launch Template avec une AMI EKS optimisée
 
 6. Conclusion
 
-Ce projet permet un déploiement rapide et modulaire d'un cluster EKS. Il peut être étendu avec des services additionnels comme Ingress, Monitoring et Logging.
+Ce projet a pour objectif de déployer un cluster Kubernetes (EKS) sur AWS en utilisant Terraform. Il vise à automatiser la création d'une infrastructure scalable, sécurisée et modulaire en suivant les bonnes pratiques DevOps.
